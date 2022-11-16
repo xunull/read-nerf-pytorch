@@ -1,0 +1,36 @@
+
+pts_linears
+
+256+63=319
+
+ModuleList(
+  (0): Linear(in_features=63, out_features=256, bias=True)
+  (1): Linear(in_features=256, out_features=256, bias=True)
+  (2): Linear(in_features=256, out_features=256, bias=True)
+  (3): Linear(in_features=256, out_features=256, bias=True)
+  (4): Linear(in_features=256, out_features=256, bias=True)
+  (5): Linear(in_features=319, out_features=256, bias=True)
+  (6): Linear(in_features=256, out_features=256, bias=True)
+  (7): Linear(in_features=256, out_features=256, bias=True)
+)
+
+一共八层
+
+views_linears
+
+256+27=283
+
+ModuleList(
+  (0): Linear(in_features=283, out_features=128, bias=True)
+)
+
+alpha_linear
+Linear(in_features=256, out_features=1, bias=True)
+
+
+feature_linear
+Linear(in_features=256, out_features=256, bias=True)
+
+
+rgb_linear
+Linear(in_features=128, out_features=3, bias=True)

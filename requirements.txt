@@ -1,0 +1,7 @@
+imageio
+imageio-ffmpeg
+matplotlib
+configargparse
+tensorboard>=2.0
+tqdm
+opencv-python
